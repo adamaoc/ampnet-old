@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^store$ ./store.php
+RewriteRule ^store/$ ./store.php
+
+RewriteRule ^about$ ./about.php
+RewriteRule ^about/$ ./about.php
+
+RewriteRule ^contact$ ./contact.php
+RewriteRule ^contact/$ ./contact.php
+
+RewriteRule ^contactthanks$ ./contactthanks.php
+RewriteRule ^contactthanks/$ ./contactthanks.php

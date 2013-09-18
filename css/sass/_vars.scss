@@ -1,0 +1,44 @@
+// base file for variables and foundation settings //
+
+$white: #fff;
+$black: #333;
+$sans-serif: 'Sintony', sans-serif;;
+$serif: 'Alegreya SC', serif;
+
+$body-bg: #fff;
+$body-font-color: #595958;
+$body-font-family: $sans-serif; //"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-weight: normal;
+$body-font-style: normal;
+
+
+$primary-color: #2C92BD; // blue
+$secondary-color: #81FF6D; // green
+$alert-color: #CC4B44; // red
+$success-color: #FFF86C; // yellow
+$moot-color: #CC6D3D; // tan
+
+
+// TYPOGRAPHY
+
+h1, h2, h3, h4 {
+	font-family: $sans-serif;
+	color: $primary-color;
+	font-weight: 100;
+}
+
+body {
+	font-family: $body-font-family;
+}
+
+.module {
+	background: $success-color;
+	padding: 2em;
+}
+
+.btn-success {
+	background: $primary-color;
+	&:hover {
+		background: darken($primary-color, 10);
+	}
+}
