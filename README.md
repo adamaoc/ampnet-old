@@ -1,4 +1,4 @@
-holiday-design-shopping
-=======================
+# ampnet(media) web stack
+=========================
 
-Website Stack for Holiday Design's shopping cart website
+This is a web stack for the ampnet(media) portfolio site. This site includes technologies such as Bootstrap3, HTML, SCSS, and PHP. 
