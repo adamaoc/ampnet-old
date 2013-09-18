@@ -18,6 +18,8 @@ $alert-color: #CC4B44; // red
 $success-color: #FFF86C; // yellow
 $moot-color: #CC6D3D; // tan
 
+$padding: 15px;
+
 
 // TYPOGRAPHY
 
@@ -40,5 +42,26 @@ body {
 	background: $primary-color;
 	&:hover {
 		background: darken($primary-color, 10);
+	}
+}
+
+
+.img-wrap {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	img {
+		width: 100%;
+	}
+}
+
+@mixin customSection($background: $white, $header: $primary-color, $color: $black) {
+	background: $background; 
+	color: $color;
+	padding: $padding;
+	h2 {
+		color: $header;
 	}
 }

@@ -4,13 +4,8 @@ $local = dirname(__FILE__);
 include('NiceSimpleContactForm/contactengine.php');
 if (isset($_POST['Name'])){
 	$formStatus = validate_send_email($_POST['Name'], $_POST['City'], $_POST['Email'], $_POST['Message']);
-}
-include('sharedviews/header.php'); ?>
-<div class="container">
-	
-	<div class="row">
+} ?>
 		<div class="col-xs-12 col-sm-6 col-md-6">
-			<h1>Contact Holiday Design!</h1>
 			<p>Have questions or concernes for our team? Shoot us an email here and we'll get beck with you as soon as possible.</p>
 			<div class="hidden-xs">
 				<p>Give us your name, email address, city where you reside, and a detailed message here.</p>
@@ -47,7 +42,3 @@ include('sharedviews/header.php'); ?>
 				<input type="submit" name="submit" value="Send Message" class="btn btn-default" />
 			</form>
 		</div>
-	</div>
-
-</div><?php // off index container ?>
-<?php include('sharedviews/footer.php'); ?>

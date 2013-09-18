@@ -8414,70 +8414,85 @@ code {
   font-size: 80%;
 }
 
-/* line 24, ../sass/_vars.scss */
+/* line 26, ../sass/_vars.scss */
 h1, h2, h3, h4 {
   font-family: "Sintony", sans-serif;
   color: #2c92bd;
   font-weight: 100;
 }
 
-/* line 30, ../sass/_vars.scss */
+/* line 32, ../sass/_vars.scss */
 body {
   font-family: "Sintony", sans-serif;
 }
 
-/* line 34, ../sass/_vars.scss */
+/* line 36, ../sass/_vars.scss */
 .module {
   background: #fff86c;
   padding: 2em;
 }
 
-/* line 39, ../sass/_vars.scss */
+/* line 41, ../sass/_vars.scss */
 .btn-success {
   background: #2c92bd;
 }
-/* line 41, ../sass/_vars.scss */
+/* line 43, ../sass/_vars.scss */
 .btn-success:hover {
   background: #227294;
+}
+
+/* line 49, ../sass/_vars.scss */
+.img-wrap {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* line 55, ../sass/_vars.scss */
+.img-wrap img {
+  width: 100%;
 }
 
 /* line 3, ../sass/_homepage.scss */
 .navbar-default {
   background: white;
+  background: rgba(255, 255, 255, 0.8);
   color: #2c92bd;
+  border: none;
 }
-/* line 7, ../sass/_homepage.scss */
+/* line 9, ../sass/_homepage.scss */
 .navbar-default .navbar-brand {
   color: #2c92bd;
   font-family: "Sintony", sans-serif;
   letter-spacing: 0.15em;
   font-weight: 100;
 }
-/* line 12, ../sass/_homepage.scss */
+/* line 14, ../sass/_homepage.scss */
 .navbar-default .navbar-brand span {
   color: #cc6d3d;
   letter-spacing: 0.18em;
 }
-/* line 17, ../sass/_homepage.scss */
+/* line 19, ../sass/_homepage.scss */
 .navbar-default .navbar-toggle {
   border: none !important;
 }
 
-/* line 24, ../sass/_homepage.scss */
+/* line 26, ../sass/_homepage.scss */
 #footer .container {
   padding-top: 1em;
 }
-/* line 26, ../sass/_homepage.scss */
+/* line 28, ../sass/_homepage.scss */
 #footer .container p {
   font-size: 70%;
 }
-/* line 30, ../sass/_homepage.scss */
+/* line 32, ../sass/_homepage.scss */
 #footer .container .footer-nav ul {
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
-/* line 35, ../sass/_homepage.scss */
+/* line 37, ../sass/_homepage.scss */
 #footer .container .footer-nav li {
   list-style: none;
   float: left;
@@ -8485,19 +8500,109 @@ body {
   padding-right: 0.5em;
   padding-left: 0.5em;
 }
-/* line 41, ../sass/_homepage.scss */
+/* line 43, ../sass/_homepage.scss */
 #footer .container .footer-nav li a {
   color: #cc4b44;
   font-size: 70%;
 }
 
-/* line 52, ../sass/_homepage.scss */
+/* line 54, ../sass/_homepage.scss */
+.carousel-caption {
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  right: 0;
+  left: 0;
+  text-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 62, ../sass/_homepage.scss */
+.carousel-caption h2 {
+  font-size: 15px;
+  padding: 15px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  /* line 62, ../sass/_homepage.scss */
+  .carousel-caption h2 {
+    font-size: 24px;
+    padding: 22.5px;
+  }
+}
+
+/* line 72, ../sass/_homepage.scss */
+.carousel-indicators {
+  bottom: -11px;
+}
+
+/* line 76, ../sass/_homepage.scss */
+.be-section {
+  background: #2c92bd;
+  color: white;
+  padding: 15px;
+}
+/* line 64, ../sass/_vars.scss */
+.be-section h2 {
+  color: white;
+}
+
+/* line 80, ../sass/_homepage.scss */
+.what-we-do {
+  text-align: center;
+  padding: 25px 15px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+/* line 86, ../sass/_homepage.scss */
+.what-we-do .img-wrap img {
+  width: 260%;
+}
+
+/* line 92, ../sass/_homepage.scss */
 .banner-rotator {
   padding: 0;
 }
-/* line 54, ../sass/_homepage.scss */
+/* line 94, ../sass/_homepage.scss */
 .banner-rotator img {
   width: 100%;
+}
+
+/* line 99, ../sass/_homepage.scss */
+h2 .glyphicon {
+  font-weight: 100;
+  font-size: 90%;
+  padding-right: 5px;
+}
+
+/* line 106, ../sass/_homepage.scss */
+.our-team {
+  background: #f1f1f1;
+  color: #333333;
+  padding: 15px;
+}
+/* line 64, ../sass/_vars.scss */
+.our-team h2 {
+  color: #2c92bd;
+}
+/* line 108, ../sass/_homepage.scss */
+.our-team p {
+  padding-top: 15px;
+}
+
+/* line 117, ../sass/_homepage.scss */
+.proj-img img {
+  width: 100%;
+}
+
+/* line 122, ../sass/_homepage.scss */
+.contact {
+  background: #fff86c;
+  color: #333333;
+  padding: 15px;
+}
+/* line 64, ../sass/_vars.scss */
+.contact h2 {
+  color: #2c92bd;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -8524,19 +8629,4 @@ body {
   background: #2c92bd;
   color: white;
   text-transform: uppercase;
-}
-
-/* line 2, ../sass/_about.scss */
-.about .row {
-  padding: 2em 0;
-}
-@media (min-width: 992px) {
-  /* line 2, ../sass/_about.scss */
-  .about .row {
-    padding-top: 4em;
-  }
-}
-/* line 8, ../sass/_about.scss */
-.about .btn-padded {
-  padding-top: 2em;
 }

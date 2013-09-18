@@ -2,7 +2,9 @@
 
 .navbar-default {
 	background: $white;
+	background: rgba($white, .8);
 	color: $primary-color;
+	border: none;
 
 	.navbar-brand {
 		color: $primary-color;
@@ -49,6 +51,44 @@
 
 // HOME PAGE PRODUCT GRID 
 
+.carousel-caption {
+	background: $white;
+	background: rgba($white, 0.8);
+	right: 0;
+	left: 0;
+	text-shadow: none;
+	margin: 0;
+	padding: 0;
+	h2 {
+		font-size: 15px;
+		padding: $padding;
+		margin: 0;
+		@media (min-width: 768px) { 
+			font-size: 24px;
+			padding: $padding *1.5;
+		}
+	} 
+}
+.carousel-indicators {
+	bottom: -11px;
+}
+
+.be-section {
+	@include customSection($primary-color, $white, $white);
+}
+
+.what-we-do {
+	text-align: center;
+	padding: 25px $padding;
+	max-width: 350px;
+	margin: 0 auto;
+	.img-wrap {
+		img {
+			width: 260%;
+		}
+	}
+}
+
 .banner-rotator {
 	padding: 0; 
 	img {
@@ -56,7 +96,32 @@
 	}
 }
 
+h2 .glyphicon {
+	font-weight: 100;
+	font-size: 90%;
+	padding-right: 5px;
+}
 
+
+.our-team {
+	@include customSection(#f1f1f1);
+	p {
+		padding-top: $padding;
+	}
+}
+
+.our-projects {
+
+}
+.proj-img {
+	img {
+		width: 100%;
+	}
+}
+
+.contact {
+	@include customSection($success-color)
+}
 /* Small devices (tablets, 768px and up) */
 /*@media (min-width: 768px) { 
 	body {
