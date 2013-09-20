@@ -2,12 +2,8 @@
 
     <div id="footer">
       <div class="container">
-        <nav class="footer-nav">
-          <ul>
-            <li><a href="http://facebook.com/holidaydesignstore/" target="_blank">facebook</a></li>
-            <li><a href="http://twitter.com/_holidaydesign" target="_blank">twitter</a></li>
-            <li><a href="https://plus.google.com/b/115001264241226078600/115001264241226078600/posts" target="_blank">google+</a></li>
-            <li><a href="http://www.pinterest.com/holidaydesign1/" target="_blank">Pinterest</a></li>
+        <nav class="footer-nav"></nav>
+          
         <p class="text-muted credit">Site designed and developed by <a href="http://ampnetmedia.com" target="_blank">ampnet(media)</a>
         <br>&copy; 2013 All Rights Reserved.</p>
       </div>

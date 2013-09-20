@@ -97,10 +97,10 @@
           <li>
             <h3 class="h4">Holiday-Design.com</h3>
             <div class="row">
-              <div class="col-xs-3 col-sm-4 proj-img">
+              <div class="col-xs-12 col-sm-4 proj-img">
                 <img src="/img/HD-chromebook.png" alt="title" />
               </div>
-              <div class="col-xs-9 col-sm-8">
+              <div class="col-xs-12 col-sm-8">
                 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
             </div>
@@ -108,10 +108,10 @@
           <li>
             <h3 class="h4">DFWBelliesandBabies.com</h3>
             <div class="row">
-              <div class="col-xs-3 col-sm-4 proj-img">
+              <div class="col-xs-12 col-sm-4 proj-img">
                 <img src="/img/dfwBnB-ChromeBook.png" alt="title" />
               </div>
-              <div class="col-xs-9 col-sm-8">
+              <div class="col-xs-12 col-sm-8">
                 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
             </div>
@@ -119,10 +119,10 @@
           <li>
             <h3 class="h4">txGarage.com</h3>
             <div class="row">
-              <div class="col-xs-3 col-sm-4 proj-img">
+              <div class="col-xs-12 col-sm-4 proj-img">
                 <img src="/img/txGarage-ChromeBook.png" alt="title" />
               </div>
-              <div class="col-xs-9 col-sm-8">
+              <div class="col-xs-12 col-sm-8">
                 <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
             </div>
