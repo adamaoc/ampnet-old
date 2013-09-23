@@ -3,7 +3,6 @@
     <div id="footer">
       <div class="container">
         <nav class="footer-nav"></nav>
-          
         <p class="text-muted credit">Site designed and developed by <a href="http://ampnetmedia.com" target="_blank">ampnet(media)</a>
         <br>&copy; 2013 All Rights Reserved.</p>
       </div>
