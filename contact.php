@@ -9,7 +9,7 @@ if (isset($_POST['Name'])){
 			<p>Have questions or concernes for our team? Shoot us an email here and we'll get beck with you as soon as possible.</p>
 			<div class="hidden-xs">
 				<p>Give us your name, email address, city where you reside, and a detailed message here.</p>
-				<p>We love hearing from our customers so if you have any questions or concernes please do not hesitate to contact us!</p>
+				<p>We love hearing from our clients and potential clients so if you have any questions or concernes please do not hesitate to contact us!</p>
 			</div>
 			<?php if(isset($formStatus)) { ?>
 			<div class="alert alert-danger"> 
