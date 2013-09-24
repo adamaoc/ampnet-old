@@ -8621,7 +8621,7 @@ h2 .glyphicon {
 }*/
 /* line 1, ../sass/_contact.scss */
 .contact-form {
-  padding: 2.6em 0;
+  padding: 0 0 2em;
 }
 
 /* line 5, ../sass/_contact.scss */
