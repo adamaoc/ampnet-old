@@ -10,21 +10,21 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="/img/med.jpg" alt="title" />
+        <img src="/img/web-should-be.jpg" alt="title" />
         <div class="carousel-caption">
-          <h2>Connect Your business like never before!</h2>
+          <!-- <h2>Connect Your business like never before!</h2> -->
         </div>
       </div>
       <div class="item">
-        <img src="/img/med.jpg" alt="title" />
+        <img src="/img/business-goals.jpg" alt="title" />
         <div class="carousel-caption">
-          <h2>Test Image</h2>
+          <!-- <h2>Test Image</h2> -->
         </div>
       </div>
       <div class="item">
-        <img src="/img/med.jpg" alt="title" />
+        <img src="/img/webstack.jpg" alt="title" />
         <div class="carousel-caption">
-          <h2>Test Image</h2>
+          <!-- <h2>Test Image</h2> -->
         </div>
       </div>
       

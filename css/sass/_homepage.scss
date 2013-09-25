@@ -1,5 +1,13 @@
 // LAYOUT PAGE 
 
+#wrap > .container {
+	padding-top: 0;
+}
+
+.banner-row {
+	padding: 60px 0 0;
+}
+
 .navbar-default {
 	background: $white;
 	background: rgba($white, .8);
