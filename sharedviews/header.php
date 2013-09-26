@@ -36,12 +36,12 @@
             <a class="navbar-brand" href="/">
               ampnet(<span>media</span>)
             </a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-            </button>
+            </button> -->
           </div>
         </div><?php // off container ?>
       </div><?php // off navbar ?>

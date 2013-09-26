@@ -8555,56 +8555,80 @@ body {
 .be-section h2 {
   color: white;
 }
+/* line 86, ../sass/_homepage.scss */
+.be-section .img-wrap {
+  background: #F1F1F1;
+  box-shadow: inset 0px 1px 13px 1px #000;
+}
+/* line 89, ../sass/_homepage.scss */
+.be-section .img-wrap img {
+  opacity: 0.6;
+}
+/* line 93, ../sass/_homepage.scss */
+.be-section .img-wrap.get-found img {
+  margin-left: -35px;
+}
 
-/* line 88, ../sass/_homepage.scss */
+/* line 100, ../sass/_homepage.scss */
 .what-we-do {
   text-align: center;
   padding: 25px 15px;
   max-width: 350px;
   margin: 0 auto;
 }
-/* line 94, ../sass/_homepage.scss */
+/* line 106, ../sass/_homepage.scss */
 .what-we-do .img-wrap img {
-  width: 260%;
+  width: 130%;
 }
 
-/* line 100, ../sass/_homepage.scss */
+/* line 112, ../sass/_homepage.scss */
 .banner-rotator {
   padding: 0;
 }
-/* line 102, ../sass/_homepage.scss */
+/* line 114, ../sass/_homepage.scss */
 .banner-rotator img {
   width: 100%;
 }
 
-/* line 107, ../sass/_homepage.scss */
+/* line 119, ../sass/_homepage.scss */
 h2 .glyphicon {
   font-weight: 100;
   font-size: 90%;
   padding-right: 5px;
 }
 
-/* line 114, ../sass/_homepage.scss */
+/* line 126, ../sass/_homepage.scss */
 .our-team {
   background: #f1f1f1;
   color: #333333;
   padding: 15px;
+  padding-bottom: 45px;
 }
 /* line 64, ../sass/_vars.scss */
 .our-team h2 {
   color: #2c92bd;
 }
-/* line 116, ../sass/_homepage.scss */
+/* line 129, ../sass/_homepage.scss */
 .our-team p {
   padding-top: 15px;
 }
 
-/* line 125, ../sass/_homepage.scss */
+/* line 134, ../sass/_homepage.scss */
+.about-img {
+  width: 100%;
+  text-align: center;
+}
+/* line 137, ../sass/_homepage.scss */
+.about-img img {
+  max-width: 100%;
+}
+
+/* line 146, ../sass/_homepage.scss */
 .proj-img img {
   width: 100%;
 }
 
-/* line 130, ../sass/_homepage.scss */
+/* line 151, ../sass/_homepage.scss */
 .contact {
   background: #fff86c;
   color: #333333;
