@@ -6,9 +6,6 @@
 		$formStatus = validate_send_email($_POST['Name'], $_POST['City'], $_POST['Email'], $_POST['Message']);
 	} 
 
-	if (isset($somecrap)) {
-		include('contactthanks.php');
-	}else{
 ?>
 
 <div class="col-xs-12 col-sm-12">
@@ -57,6 +54,3 @@
 	</div>
 
 </div>
-<?php 
-	}
-?>

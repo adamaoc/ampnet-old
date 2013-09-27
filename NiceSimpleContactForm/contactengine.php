@@ -19,15 +19,14 @@ function sendMessage($Name, $City, $Emial, $Message) {
 	// send email 
 	$success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
   	// header('Location: /contactthanks/');
-  	// return $success;
   	die();
 	
 }
 
 function validate_send_email($Name, $City, $Email, $Message) {
-	$EmailFrom = "contact@holiday-design.com";
-	$EmailTo = "contact@holiday-design.com";
-	$Subject = "New message from holiday-design - ";
+	$EmailFrom = "contact@ampnetmedia.com";
+	$EmailTo = "adam@ampnetmedia.com";
+	$Subject = "New message from ampnetmedia - ";
 	$Name = Trim(stripslashes($_POST['Name'])); 
 	$City = Trim(stripslashes($_POST['City'])); 
 	$Email = Trim(stripslashes($_POST['Email'])); 
