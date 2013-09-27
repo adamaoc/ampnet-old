@@ -28,8 +28,9 @@
 		</div>
 		<?php } ?>
 	</div>
+	<a id="contact"></a>
 	<div class="col-xs-12 col-sm-6 col-md-6">
-		<form method="post" action="" role="form" class="contact-form">
+		<form method="post" action="#contact" role="form" class="contact-form">
   			<div class="form-group">
 				<label for="Name">Name:</label>
 				<input type="text" name="Name" id="Name" class="form-control" placeholder="Your Name" />
