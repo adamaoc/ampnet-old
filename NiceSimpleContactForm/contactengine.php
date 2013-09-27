@@ -19,7 +19,7 @@ function sendMessage($Name, $City, $Emial, $Message) {
 	// send email 
 	$success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
   	// header('Location: /contactthanks/');
-  	return $success;
+  	// return $success;
   	die();
 	
 }
