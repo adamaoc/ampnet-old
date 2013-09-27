@@ -2,7 +2,7 @@
 	$local = dirname(__FILE__);
 	// echo $local.'<br>';
 	if (isset($_POST['Name'])){
-		include('/NiceSimpleContactForm/contactengine.php');
+		include('NiceSimpleContactForm/contactengine.php');
 		$formStatus = validate_send_email($_POST['Name'], $_POST['City'], $_POST['Email'], $_POST['Message']);
 	} 
 ?>
