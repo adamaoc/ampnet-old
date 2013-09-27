@@ -5,7 +5,12 @@
 		include('NiceSimpleContactForm/contactengine.php');
 		$formStatus = validate_send_email($_POST['Name'], $_POST['City'], $_POST['Email'], $_POST['Message']);
 	} 
+
+	if (isset($success)) {
+		include('contactthanks.php');
+	}else{
 ?>
+
 <div class="col-xs-12 col-sm-12">
 	<h2>
 		<span class="glyphicon glyphicon-comment"></span>
@@ -52,3 +57,6 @@
 	</div>
 
 </div>
+<?php 
+	}
+?>
