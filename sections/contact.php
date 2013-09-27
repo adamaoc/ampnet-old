@@ -6,7 +6,7 @@
 		$formStatus = validate_send_email($_POST['Name'], $_POST['City'], $_POST['Email'], $_POST['Message']);
 	} 
 
-	if (isset($success)) {
+	if (isset($sendMessage())) {
 		include('contactthanks.php');
 	}else{
 ?>
