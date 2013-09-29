@@ -1,7 +1,6 @@
 <?php 
 	$local = dirname(__FILE__);
-	// echo $local.'<br>';
-	if (isset($_POST['Name'])){
+	if (isset($_POST['Name'], $_POST['Email'], $_POST['Message'])){
 		include('NiceSimpleContactForm/contactengine.php');
 		$formStatus = validate_send_email($_POST['Name'], $_POST['City'], $_POST['Email'], $_POST['Message']);
 	} 
@@ -20,18 +19,30 @@
 			<p>Give us your name, email address, city where you reside, and a detailed message here.</p>
 			<p>We love hearing from our clients and potential clients so if you have any questions or concernes please do not hesitate to contact us!</p>
 		</div>
-		<?php if(isset($formStatus)) { ?>
-		<div class="alert alert-danger"> 
-			<ul>
-				<?php foreach ($formStatus as $status) {
-					echo '<li>'.$status.'</li>';
-				} ?>
-			</ul>
-		</div>
-		<?php } ?>
+		<?php 
+		if(isset($formStatus)) { 
+			if ($formStatus == 'success') {
+				$sendSuccess = true;
+				echo "<p>Thanks for contacting us! We'll be getting back to you as soon as possible. </p>";
+			} else {
+		?>
+			<div class="alert alert-danger"> 
+				<ul>
+					<?php foreach ($formStatus as $status) {
+						echo '<li>'.$status.'</li>';
+					} ?>
+				</ul>
+			</div>
+		<?php } 
+		} ?>
 	</div>
 	<a id="contact"></a>
 	<div class="col-xs-12 col-sm-6 col-md-6">
+		<?php 
+		if (isset($sendSuccess)) { 
+			echo "<p>SENT!</p>";
+		} else { 
+			?>
 		<form method="post" action="#contact" role="form" class="contact-form">
   			<div class="form-group">
 				<label for="Name">Name:</label>
@@ -51,6 +62,7 @@
 			</div>
 			<input type="submit" name="submit" value="Send Message" class="btn btn-default" />
 		</form>
+		<?php } ?>
 	</div>
 
 </div>

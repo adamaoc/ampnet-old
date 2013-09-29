@@ -1,6 +1,6 @@
 <?php
 
-function sendMessage($Name, $City, $Emial, $Message) {
+function sendMessage($Name, $City, $Email, $Message, $EmailTo, $Subject, $EmailFrom) {
 	// prepare email body text
 	$Body = "";
 	$Body .= "Name: ";
@@ -17,9 +17,9 @@ function sendMessage($Name, $City, $Emial, $Message) {
 	$Body .= "\n";
 
 	// send email 
-	$success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
+	mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
   	// header('Location: /contactthanks/');
-  	die();
+  	// die();
 	
 }
 
@@ -31,8 +31,6 @@ function validate_send_email($Name, $City, $Email, $Message) {
 	$City = Trim(stripslashes($_POST['City'])); 
 	$Email = Trim(stripslashes($_POST['Email'])); 
 	$Message = Trim(stripslashes($_POST['Message'])); 
-
-	// echo $Name.' '.$City.' '.$Email.' '.$Message.'<br>';
 
 	// validation
 	$validationOK=true;
@@ -69,23 +67,13 @@ function validate_send_email($Name, $City, $Email, $Message) {
 
 	if (!$validationOK) {
 		$emailStatus = $error;
-		// echo "<br>";
-		// print_r($error);
-	  // print "<meta http-equiv=\"refresh\" content=\"0;URL=/contact/?error=true\">";
-	  // exit;
+		
 	} else {
-		sendMessage($Name, $City, $Email, $Message);
+		sendMessage($Name, $City, $Email, $Message, $EmailTo, $Subject, $EmailFrom);
+		$emailStatus = 'success';
 		// print "<meta http-equiv=\"refresh\" content=\"0;URL=/contact/contactthanks\">";
 	}
 
-
-	// redirect to success page 
-	// if ($success){
-	//   print "<meta http-equiv=\"refresh\" content=\"0;URL=/contact/contactthanks\">";
-	// }
-	// else{
-	//   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
-	// }
 	return $emailStatus;
 }
 ?>
