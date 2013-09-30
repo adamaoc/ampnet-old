@@ -25,18 +25,19 @@ ul {
     list-style: disc;
 }
 </style>
-<div class="row">
-	<div class="col-sm-12 .col-md-6 .col-md-offset-3">
-		<h1>Not found <span>:(</span></h1>
-		<p>Sorry, but the page you were trying to view does not exist.</p>
-		<p>It looks like this was the result of either:</p>
-		<ul>
-			<li>a mistyped address</li>
-			<li>an out-of-date link</li>
-		</ul>
-		<h2>Head back to the home page <a href="http://ampnetmedia.com/">ampnet(media)</a>.</h2>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+			<h1>Not found <span>:(</span></h1>
+			<p>Sorry, but the page you were trying to view does not exist.</p>
+			<p>It looks like this was the result of either:</p>
+			<ul>
+				<li>a mistyped address</li>
+				<li>an out-of-date link</li>
+			</ul>
+			<h2>Head back to the home page <a href="http://ampnetmedia.com/">&laquo; ampnet(media)</a>.</h2>
+		</div>
 	</div>
 </div>
-
 
 <?php include('sharedviews/footer.php'); ?>
