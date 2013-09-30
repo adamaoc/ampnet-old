@@ -1,6 +1,7 @@
 <?php include('sharedviews/header.php'); ?>
 
 <style>
+.container { padding-top: 50px !important; }
 h1 {
     margin: 0 10px;
     font-size: 50px;
