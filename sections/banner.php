@@ -10,19 +10,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="/img/web-should-be.jpg" alt="title" />
+        <img src="/img/web-should-be.jpg" alt="My website should be - how we help build websites to your specific needs." />
         <div class="carousel-caption">
           <!-- <h2>Connect Your business like never before!</h2> -->
         </div>
       </div>
       <div class="item">
-        <img src="/img/business-goals.jpg" alt="title" />
+        <img src="/img/business-goals.jpg" alt="Defining business project goals - how we build a media around your business." />
         <div class="carousel-caption">
           <!-- <h2>Test Image</h2> -->
         </div>
       </div>
       <div class="item">
-        <img src="/img/webstack.jpg" alt="title" />
+        <img src="/img/webstack.jpg" alt="What it takes to build a website. SEO - Connecting - Best Practices - Responsive" />
         <div class="carousel-caption">
           <!-- <h2>Test Image</h2> -->
         </div>
