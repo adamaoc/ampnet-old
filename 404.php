@@ -1,7 +1,7 @@
 <?php include('sharedviews/header.php'); ?>
 
 <style>
-.container { padding-top: 50px !important; }
+.top404 { padding-top: 50px !important; }
 h1 {
     margin: 0 10px;
     font-size: 50px;
@@ -26,7 +26,7 @@ ul {
     list-style: disc;
 }
 </style>
-<div class="container">
+<div class="container top404">
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-sm-offset-3">
 			<h1>Not found <span>:(</span></h1>
