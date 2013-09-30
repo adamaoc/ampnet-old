@@ -36,7 +36,7 @@ ul {
 				<li>a mistyped address</li>
 				<li>an out-of-date link</li>
 			</ul>
-			<h2>Head back to the home page <a href="http://ampnetmedia.com/">&laquo; ampnet(media)</a>.</h2>
+			<h2>Head back to the home page:<br> <a href="http://ampnetmedia.com/">&laquo; ampnet(media)</a>.</h2>
 		</div>
 	</div>
 </div>
