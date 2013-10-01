@@ -4,7 +4,7 @@
 </h2>
 <div class="col-xs-12 col-sm-4">
 	<div class="img-wrap">
-		<img src="/img/office.jpg" alt="title" />
+		<img src="/img/office.jpg" alt="The ampnet media team is dedicated to customer satisfaction." />
 	</div>
 </div>
 <div class="col-xs-12 col-sm-8">
