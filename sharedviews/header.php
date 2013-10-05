@@ -6,13 +6,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Online shopping for all your seasonal or holiday decorations. Great for the home or office and sold at amazing prices!">
+    
+    <meta name="description" content="Dallas Texas based Web Design and Development Company. We are an innovative development shop that can help your company dive into the vast ocean of the Internet.">
     <meta name="author" content="ampnetmedia.com">
+
     <link rel="shortcut icon" href="/img/favicon.ico">
+
     <meta name="google-site-verification" content="fSdVe-xL70WGQ4EdrP7dZemxzq1oYbc_GI48aFY1_0w" />
     <meta name="msvalidate.01" content="B038142E19DDC9427F7BB86F8022EE9C" />
     
-    <title>ampnet(media) - <?php echo dynamicTitle($onpage); ?></title>
+    <title>ampnet(media) - Dallas, TX <?php echo dynamicTitle($onpage); ?></title>
     
     <link rel="apple-touch-icon" href="/img/touch-icon-iphone.png" />
     <link rel="apple-touch-icon" sizes="76x76" href="/img/touch-icon-ipad.png" />
@@ -32,8 +35,7 @@
   </head>
 
   <body>
-
-    <!-- Wrap all page content here -->
+<!-- Wrap all page content here -->
 <div id="wrap">
 
       <!-- Fixed navbar -->

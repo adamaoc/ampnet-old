@@ -10,9 +10,9 @@
 <div class="col-xs-12 col-sm-12">
 	<h2>
 		<span class="glyphicon glyphicon-comment"></span>
-		contact Us
+		contact Us 
 	</h2>
-
+	<h3><span>- (214) 702-6752 -</span> Dallas, TX</h3>
 	<div class="col-xs-12 col-sm-6 col-md-6">
 		<p>Have questions or concerns for our team? Shoot us an email here and we'll get back with you as soon as possible.</p>
 		<div class="hidden-xs">
