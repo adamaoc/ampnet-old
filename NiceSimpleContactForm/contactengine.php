@@ -23,20 +23,30 @@ function sendMessage($Name, $City, $Email, $Message, $EmailTo, $Subject, $EmailF
 	
 }
 
-function validate_send_email($Name, $City, $Email, $Message) {
+function validate_send_email($Name, $City, $address, $Email, $Message) {
 	$EmailFrom = "contact@ampnetmedia.com";
 	$EmailTo = "adam@ampnetmedia.com";
 	$Subject = "New message from ampnetmedia - ";
-	$Name = Trim(stripslashes($_POST['Name'])); 
-	$City = Trim(stripslashes($_POST['City'])); 
-	$Email = Trim(stripslashes($_POST['Email'])); 
-	$Message = Trim(stripslashes($_POST['Message'])); 
+	$Name = Trim(stripslashes($Name)); 
+	$City = Trim(stripslashes($City)); 
+	$address = Trim(stripslashes($address));
+	$Email = Trim(stripslashes($Email)); 
+	$Message = Trim(stripslashes($Message)); 
 
 	// validation
 	$validationOK=true;
 
 	$error = array();
 
+	if (isset($address)) {
+		if ($address == '' or $address == ' ') {
+			$validationOK = true;
+		}else{
+			var_dump($address);
+			$validationOK = false;
+			$error[] = "We're sorry, something went wrong here... Please try again.";
+		}
+	}
 	if (isset($Name)) {
 		if ($Name == '' or $Name == ' ') {
 			$validationOK = false;

@@ -7,3 +7,13 @@
 	color: $white;
 	text-transform: uppercase;
 }
+
+.form-hidden {
+	position: relative;
+}
+.dontshow {
+	position: absolute;
+	top: -9999;
+	left: -9999;
+	visibility: hidden;
+}

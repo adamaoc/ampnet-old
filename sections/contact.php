@@ -2,7 +2,7 @@
 	$local = dirname(__FILE__);
 	if (isset($_POST['Name'], $_POST['Email'], $_POST['Message'])){
 		include('NiceSimpleContactForm/contactengine.php');
-		$formStatus = validate_send_email($_POST['Name'], $_POST['City'], $_POST['Email'], $_POST['Message']);
+		$formStatus = validate_send_email($_POST['Name'], $_POST['City'], $_POST['address'], $_POST['Email'], $_POST['Message']);
 	} 
 
 ?>
@@ -46,19 +46,23 @@
 		<form method="post" action="#contact" role="form" class="contact-form">
   			<div class="form-group">
 				<label for="Name">Name:</label>
-				<input type="text" name="Name" id="Name" class="form-control" placeholder="Your Name" />
+				<input type="text" name="Name" id="Name" class="form-control" placeholder="Your Name" value="<?php if(isset($_POST['Name'])) { echo htmlspecialchars($_POST['Name']); } ?>" />
+			</div>
+			<div class="form-hidden">
+				<label for="moreinfo" class="dontshow">testing</label>
+				<input type="input" name="moreinfo" id="moreinfo" class="dontshow" value="" />
 			</div>
 			<div class="form-group">
 				<label for="City">City / State:</label>
-				<input type="text" name="City" id="City" class="form-control" placeholder="City / State" />
+				<input type="text" name="City" id="City" class="form-control" placeholder="City / State" value="<?php if(isset($_POST['City'])) { echo htmlspecialchars($_POST['City']); } ?>" />
 			</div>
 			<div class="form-group">
 				<label for="Email">Email:</label>
-				<input type="text" name="Email" id="Email" class="form-control" placeholder="youremail@youremail.com" />
+				<input type="text" name="Email" id="Email" class="form-control" placeholder="youremail@youremail.com" value="<?php if(isset($_POST['Email'])) { echo htmlspecialchars($_POST['Email']); } ?>" />
 			</div>
 			<div class="form-group">
 				<label for="Message">Message:</label><br />
-				<textarea name="Message" rows="10" id="Message" class="form-control" placeholder="Your Detailed Message HERE!"></textarea>
+				<textarea name="Message" rows="10" id="Message" class="form-control" placeholder="Your Detailed Message HERE!"><?php if(isset($_POST['Message'])) { echo htmlspecialchars($_POST['Message']); } ?></textarea>
 			</div>
 			<input type="submit" name="submit" value="Send Message" class="btn btn-default" />
 		</form>
