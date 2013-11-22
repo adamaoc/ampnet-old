@@ -5,6 +5,7 @@
         <nav class="footer-nav"></nav>
         <p class="text-muted credit">Site designed and developed by <a href="http://ampnetmedia.com" target="_blank">ampnet(media)</a>
         <br>&copy; 2013 All Rights Reserved.</p>
+        <p class="text-muted credit"><a href="http://mediatemple.net/#a_aid=512fd1cf8a22a" target="_blank">hosted by Media Temple (mt)</a></p>
       </div>
     </div>
 
